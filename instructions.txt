@@ -14,3 +14,11 @@ To enable auto-completion:
 
 then add the following to your ~/.zshrc file:
 	fpath=(~/.zsh $fpath)
+
+Commands:
+	To add a file:
+		git add .
+		or add by file name
+		git add whateverfile.txt
+
+
