@@ -17,8 +17,7 @@ then add the following to your ~/.zshrc file:
 
 Commands:
 	To add a file:
-		git add .
+		git add . [ tracks the current and any child directories ]
 		or add by file name
 		git add whateverfile.txt
-
 
