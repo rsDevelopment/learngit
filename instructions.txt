@@ -1,0 +1,16 @@
+Globol configuration:
+	git config --global user.name "Shaumik"
+	git config --global user.email "sdaityari@gmail.com"
+	git config --global color.ui "auto"
+
+Config settings:
+	git config --list
+
+Initalize repo:
+	git init
+
+To enable auto-completion:
+	curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh -o ~/.zsh/_git/git-completion.zsh
+
+then add the following to your ~/.zshrc file:
+	fpath=(~/.zsh $fpath)
