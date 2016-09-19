@@ -1,7 +1,8 @@
-Globol configuration:
+zlobol configuration:
 	git config --global user.name "Shaumik"
 	git config --global user.email "sdaityari@gmail.com"
 	git config --global color.ui "auto"
+	git config --global push.defaul simple
 
 Config settings:
 	git config --list
@@ -14,3 +15,35 @@ To enable auto-completion:
 
 then add the following to your ~/.zshrc file:
 	fpath=(~/.zsh $fpath)
+
+Commands:
+	To add a file:
+		git add . [ tracks the current and any child directories ]
+		or add by file name
+		git add whateverfile.txt
+		git add -u
+
+	To see the contents of a hash:
+		git show hashchars
+		
+
+Testing
+
+Add remote repository:
+	git remote add origin https://github.com/rsDevelopment/learngit.git
+
+Commit to remote repository
+	git push -u origin master
+		The -u establishes a permanent link so that it can keep comparing when doing status
+
+Branches
+	git branch
+		To see current branches
+	git branch -a
+		To see remote branches
+
+	Branch creation:
+		git branch branchName	
+		git checkout branchName -- To switch to the branch
+		git branch -r newBranchName
+		git branch -d targetBranch | git branch -D targetBranch for hard delete
