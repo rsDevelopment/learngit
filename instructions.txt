@@ -57,5 +57,6 @@ Branches
 		git push origin sourceBranch:targetBranch
 
 Pulling data:
-	git fetch origin
+	git fetch 
+	git merge origin/master
 
