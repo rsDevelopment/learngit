@@ -58,5 +58,7 @@ Branches
 
 Pulling data:
 	git fetch 
+	or
+	git pull origin:ifBranch
 	git merge origin/master
 
