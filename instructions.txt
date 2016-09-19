@@ -27,3 +27,8 @@ Commands:
 		
 
 Testing
+
+Add remote repository:
+	git remote add origin https://github.com/rsDevelopment/learngit.git
+	
+	The test
