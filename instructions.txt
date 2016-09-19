@@ -13,6 +13,7 @@ Cloning a repo:
 	git clone https://github.com/sdaityari/my_git_project.git 
 		-- by default it will create folder with project name. It can be overriden by passing name as last arg
 
+	git remote -v -- to see a list of all remote repos associate with project
 To enable auto-completion:
 	curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh -o ~/.zsh/_git/git-completion.zsh
 
@@ -51,4 +52,7 @@ Branches
 		git branch -r newBranchName
 		git branch -d targetBranch | git branch -D targetBranch for hard delete
 		git merge targetBranch
+
+	Branch pushing
+		git push origin sourceBranch:targetBranch
 
