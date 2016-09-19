@@ -30,5 +30,15 @@ Testing
 
 Add remote repository:
 	git remote add origin https://github.com/rsDevelopment/learngit.git
+
+Commit to remote repository
+	git push -u origin master
+		The -u establishes a permanent link so that it can keep comparing when doing status
+
+Branches
+	git branch
+		To see current branches
+	git branch -a
+		To see remote branches
+
 	
-	The test
