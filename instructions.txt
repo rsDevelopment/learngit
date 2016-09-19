@@ -10,7 +10,7 @@ Config settings:
 Initalize repo:
 	git init
 Cloning a repo:
-	git clone https://github.com/sdaityari/my_git_project.git 
+	git clone https://github.com/rsDevelopment/learngit.git
 		-- by default it will create folder with project name. It can be overriden by passing name as last arg
 
 	git remote -v -- to see a list of all remote repos associate with project
@@ -55,4 +55,7 @@ Branches
 
 	Branch pushing
 		git push origin sourceBranch:targetBranch
+
+Pulling data:
+	git fetch origin
 
