@@ -9,6 +9,9 @@ Config settings:
 
 Initalize repo:
 	git init
+Cloning a repo:
+	git clone https://github.com/sdaityari/my_git_project.git 
+		-- by default it will create folder with project name. It can be overriden by passing name as last arg
 
 To enable auto-completion:
 	curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh -o ~/.zsh/_git/git-completion.zsh
