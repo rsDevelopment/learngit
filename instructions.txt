@@ -2,6 +2,7 @@ zlobol configuration:
 	git config --global user.name "Shaumik"
 	git config --global user.email "sdaityari@gmail.com"
 	git config --global color.ui "auto"
+	git config --global push.defaul master
 
 Config settings:
 	git config --list
