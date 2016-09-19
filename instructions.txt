@@ -47,3 +47,5 @@ Branches
 		git checkout branchName -- To switch to the branch
 		git branch -r newBranchName
 		git branch -d targetBranch | git branch -D targetBranch for hard delete
+		git merge targetBranch
+
